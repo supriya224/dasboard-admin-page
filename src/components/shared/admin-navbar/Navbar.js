@@ -1,9 +1,6 @@
 /* eslint-disable no-undef */
 import React, { useContext } from 'react';
 import { Context } from '../../../context/index';
-// import {logo} from "https://w7.pngwing.com/pngs/502/794/png-transparent-white-arrow-going-up-computer-icons-dashboard-car-symbol-dashboard-icon-miscellaneous-angle-logo.png";
-// import {walkin} from "https://w7.pngwing.com/pngs/305/951/png-transparent-computer-icons-nordic-walking-sport-people-icon-miscellaneous-angle-hand.png";
-// import {dinein} from "https://w7.pngwing.com/pngs/305/951/png-transparent-computer-icons-nordic-walking-sport-people-icon-miscellaneous-angle-hand.png";
 
 
 
