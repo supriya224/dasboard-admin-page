@@ -1,4 +1,4 @@
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
 import { useEffect } from "react";
 
@@ -9,9 +9,10 @@ function App() {
   });
   return (
     <div className=" h-[100vh] w-full">
-      <Routes>
+    <HomePage/>
+      {/* <Routes>
         <Route path="/admin-dashboard/:category" element={<HomePage />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

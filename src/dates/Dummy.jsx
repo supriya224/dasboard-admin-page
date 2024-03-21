@@ -18,30 +18,20 @@ export let Data = [
     icon: "fa-solid fa-chart-pie",
     inside: [
       {
-        icon: "fa-solid fa-universal-access",
-        text: "Sales",
-        url: "main",
-      },
-      {
-        icon: "fa-solid fa-chart-simple",
-        text: "Market",
-        url: "marketing",
-      },
-      {
-        icon: "fa-solid fa-comments-dollar",
-        text: "Business Summary",
-        url: "main",
-      },
-      {
-        icon: "fa-regular fa-floppy-disk",
-        text: "Saved Reports",
-        url: "main",
-      },
-      {
-        icon: "fa-regular fa-comment-dots",
-        text: "Feedbacks",
-        url: "main",
-      },
+        icon: 'fa-solid fa-universal-access',
+        text: 'Sales',
+        url: 'main'
+    },
+    {
+        icon: 'fa-solid fa-chart-simple',
+        text: 'Market',
+        url: 'marketing'
+    },
+    {
+        icon: 'fa-solid fa-comments-dollar',
+        text: 'Business Summary',
+        url: 'main'
+    },
     ],
   },
   {
@@ -49,28 +39,13 @@ export let Data = [
     inside: [
       {
         icon: "fa-solid fa-universal-access",
-        text: "Sales",
-        url: "main",
+        text: "PRD",
+        url: "Specifications",
       },
       {
         icon: "fa-solid fa-chart-simple",
-        text: "Market",
-        url: "main",
-      },
-      {
-        icon: "fa-solid fa-comments-dollar",
-        text: "Business Summary",
-        url: "main",
-      },
-      {
-        icon: "fa-regular fa-floppy-disk",
-        text: "Saved Reports",
-        url: "main",
-      },
-      {
-        icon: "fa-regular fa-comment-dots",
-        text: "Feedbacks",
-        url: "main",
+        text: "Internal",
+        url: "marketing",
       },
     ],
   },
@@ -79,23 +54,13 @@ export let Data = [
     inside: [
       {
         icon: "fa-solid fa-universal-access",
-        text: "Sales",
+        text: "Hardware",
         url: "main",
       },
       {
         icon: "fa-solid fa-chart-simple",
-        text: "Market",
-        url: "main",
-      },
-      {
-        icon: "fa-solid fa-comments-dollar",
-        text: "Business Summary",
-        url: "main",
-      },
-      {
-        icon: "fa-regular fa-comment-dots",
-        text: "Feedbacks",
-        url: "main",
+        text: "Software",
+        url: "marketing",
       },
     ],
   },
@@ -103,19 +68,14 @@ export let Data = [
     icon: "fa-solid fa-calendar-days",
     inside: [
       {
-        icon: "fa-solid fa-comments-dollar",
-        text: "Business Summary",
+        icon: "fa-solid fa-universal-access",
+        text: "Material",
         url: "main",
       },
       {
-        icon: "fa-regular fa-floppy-disk",
-        text: "Saved Reports",
-        url: "main",
-      },
-      {
-        icon: "fa-regular fa-comment-dots",
-        text: "Feedbacks",
-        url: "main",
+        icon: "fa-solid fa-chart-simple",
+        text: "Production",
+        url: "marketing",
       },
     ],
   },
@@ -124,23 +84,13 @@ export let Data = [
     inside: [
       {
         icon: "fa-solid fa-universal-access",
-        text: "Sales",
-        url: "main",
-      },
-    ],
-  },
-  {
-    icon: "fa-solid fa-gear",
-    inside: [
-      {
-        icon: "fa-regular fa-floppy-disk",
-        text: "Saved Reports",
+        text: "Online",
         url: "main",
       },
       {
-        icon: "fa-regular fa-comment-dots",
-        text: "Feedbacks",
-        url: "main",
+        icon: "fa-solid fa-chart-simple",
+        text: "Dealearship",
+        url: "marketing",
       },
     ],
   },
@@ -505,7 +455,7 @@ export let dateOptions = [
   },
 ];
 
-export let cards = [
+export let card = [
   {
     text: "Total orders",
     icon: "fa-solid fa-file",
