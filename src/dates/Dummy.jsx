@@ -1,24 +1,19 @@
-
-
+// data routing
 export let Data = [
   {
     icon: "fa-solid fa-chart-pie",
     inside: [
       {
         icon: 'fa-solid fa-universal-access',
-        text: 'Sales',
+        text: 'External',
         url: 'main'
     },
     {
         icon: 'fa-solid fa-chart-simple',
-        text: 'Market',
+        text: 'Internal',
         url: 'marketing'
     },
-    {
-        icon: 'fa-solid fa-comments-dollar',
-        text: 'Business Summary',
-        url: 'main'
-    },
+   
     ],
   },
   {
@@ -27,12 +22,12 @@ export let Data = [
       {
         icon: "fa-solid fa-universal-access",
         text: "PRD",
-        url: "Specifications",
+        url: "prd",
       },
       {
         icon: "fa-solid fa-chart-simple",
-        text: "Internal",
-        url: "marketing",
+        text: "Specifications",
+        url: "specification",
       },
     ],
   },
@@ -57,12 +52,12 @@ export let Data = [
       {
         icon: "fa-solid fa-universal-access",
         text: "Material",
-        url: "Material",
+        url: "main",
       },
       {
         icon: "fa-solid fa-chart-simple",
         text: "Production",
-        url: "Production",
+        url: "marketing",
       },
     ],
   },
@@ -72,183 +67,187 @@ export let Data = [
       {
         icon: "fa-solid fa-universal-access",
         text: "Online",
-        url: "online",
+        url: "main",
       },
       {
         icon: "fa-solid fa-chart-simple",
         text: "Dealearship",
-        url: "dealearship",
+        url: "marketing",
       },
     ],
   },
 ];
 
+// task data card
 export let dateCards = [
   {
-    text: "Coffeetalk",
-    earn: "1,432",
-    percent: "3",
+    text: "Completed Task",
+    task: "100",
     color: "border-violet-500",
   },
   {
-    text: "Low n slow",
-    earn: "2,124",
-    percent: "5",
-    color: "border-red-500",
-  },
-  {
-    text: "Cold 'n brew",
-    earn: "9,692",
-    percent: "12",
+    text: "Previous",
+    task: "200",
     color: "border-yellow-500",
   },
   {
-    text: "Eplus space",
-    earn: "0,902",
-    percent: "1",
+    text: "Next task",
+    task: "50",
     color: "border-lime-500",
   },
   {
-    text: "Sinergy space",
-    earn: "6,431",
-    percent: "9",
-    color: "border-lime-400",
+    text: "Working",
+    task: "150",
+    color: "border-red-500",
   },
+ 
+ 
 ];
+
 export let topSellingAndGrossingItems = [
   {
-    title: "Top selling items",
+    title: "Top selling items by Employee",
     items: [
       {
-        // img: pl,
-        text: "Javanese Salad with Peanut Sauce and Ice Tea",
-        money: "$ 2.302,00",
-        percentage: "-0,5%",
-        color: "text-orange-600",
+        img: "https://cdn3d.iconscout.com/3d/premium/thumb/human-10561578-8511733.png?f=webp",
+        text: "Best selling previous year by Alisa jain",
+        money: "$100,000",
+        percentage: "+8.5%",
+        color: "text-lime-600",
       },
       {
-        // img: pl1,
-        text: "Sirloin Steak Well Done with Barbeque Sauce",
-        money: "$ 2.302,00",
-        percentage: "+2,5%",
+        img: "https://static-cdn.icons8.com/l/3d/images/cu1_with_coffee_girl_2_close-up.webp",
+        text: "Best selling previous year by Aisha parmar",
+        money: "$ 10000",
+        percentage: "+2.5%",
         color: "text-lime-500",
       },
       {
-        // img: pl2,
-        text: "Chicken Crispy with Sauce Sambal ABC",
-        money: "$ 2.302,00",
-        percentage: "-0,5%",
-        color: "text-orange-600",
+        img: "https://static-cdn.icons8.com/l/3d/images/2_thumb_up_man_1.webp",
+        text: "Best selling previous year by Ritesh ojha",
+        money: "$ 7000",
+        percentage: "-0.5%",
+        color: "text-yellow-600",
       },
     ],
   },
   {
-    title: "Top grossing items",
+    title: "New joiner Employee and selling items",
+
+    // title: "Top grossing items",
     items: [
       {
-        // img: pl3,
-        text: "Sirloin Steak Well Done with Barbeque Sauce",
-        money: "$ 2.302,00",
-        percentage: "+2,5%",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNlJIUlf33dFRivxgal5kvBvC4wE6NF7floQ&usqp=CAU",
+        text: "Best selling previous year by Rehan Ahmad",
+        money: "$5000",
+        percentage: "+2.5%",
         color: "text-lime-500",
       },
       {
-        // img: pl4,
-        text: "Javanese Salad with Peanut Sauce and Ice Tea",
-        money: "$ 2.302,00",
-        percentage: "-0,5%",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJoaOxJjKSkO5bDEuhaGx52UVTMf3voNTW9fSlaqTxBS_T5TAgxbr1kceqORK7PvuVwdA&usqp=CAU",
+        text: "Best selling previous year by Md.  Arif ",
+        money: "$3000 ",
+        percentage: "+1.5%",
         color: "text-lime-500",
       },
       {
-        // img: pl5,
-        text: "Chicken Crispy with Sauce Sambal ABC",
+        img: "https://as2.ftcdn.net/v2/jpg/05/93/63/91/1000_F_593639138_VxNCmuUqt7FqDosQzMs3FwH7Hh9TVfgE.jpg",
+        text: "Best selling previous year by Ayhan",
         money: "$ 2.302,00",
-        percentage: "-0,5%",
+        percentage: "-0.5%",
         color: "text-orange-600",
       },
     ],
   },
 ];
+// all main condidate data is here
 export let dateStaff = [
   {
-    name: "Nirmala Azalea",
-    // img: Oval1,
-    percent: "+5%",
-    color: "text-lime-500",
-    money: "$1,912",
-  },
-  {
-    name: "Bena Kane",
-    // img: Oval2,
-    percent: "-1.2%",
-    color: "text-orange-600",
+    name: "Alica Kane",
+    percent: "Founder",
+    color: "text-orange-400",
     money: "$294",
   },
   {
-    name: "Firmino Kudo",
-    // img: Oval3,
-    percent: "+2%",
+    name: "Bena Kane",
+    percent: "CEO",
+    color: "text-blue-400",
+    money: "$294",
+  },
+  {
+    name: "John walke",
+    percent: "Manager",
     color: "text-lime-500",
+    money: "$1,912",
+  },
+
+  {
+    name: "Firmino Kudo",
+    percent: "HR",
+    color: "text-indigo-700",
     money: "$2,009",
   },
   {
     name: "Beby Jovancy",
-    // img: Oval4,
-    percent: "+1.3%",
-    color: "text-lime-500",
+    percent: "Team Leader",
+    color: "text-yellow-500",
     money: "$1,089",
   },
 ];
 
+// pie chart data sales
 export let dataPie = [
   {
-    x: "Coffeetalk",
-    y: 685,
+    x: "Mini Car",
+    y: 500,
   },
   {
-    x: "Low in slow",
+    x: "Intermediate SVU",
     y: 878,
   },
   {
-    x: "Cold 'n brew",
+    x: "Pickup",
     y: 608,
   },
   {
-    x: "Eplus space",
+    x: "Van",
     y: 787,
   },
   {
-    x: "Sinergy space",
+    x: "Luxury car",
     y: 368,
-  },
+  },  
 ];
+// all types car sales 
 export let dataColumn = [
   {
-    x: "Coffeetalk",
+    x: "Mini Car ",
     y: 685,
-    color: "#FF736A",
+    color: "#af93f7",
   },
   {
-    x: "Low in slow",
+    x: "Intermediate",
     y: 878,
-    color: "#FECF24",
+    color: "#7443f1",
   },
   {
-    x: "Cold 'n brew",
+    x: "Van",
     y: 608,
-    color: "#73CB50",
+    color: "#5112f3",
   },
   {
-    x: "Eplus space",
+    x: "Luxury car",
     y: 787,
-    color: "#B1E71D",
+    color: "#2e166b",
   },
   {
-    x: "Sinergy space",
+    x: "Pick up",
     y: 368,
-    color: "#8569F6",
+    color: "#b1a9d2",
   },
+
 ];
+
 
 export const dataLine = [
   [
@@ -313,141 +312,34 @@ export const dataLine = [
   ],
 ];
 
+// chart as like what you want to do show
 export let dataBar = [
   {
-    x: "1-2AM",
-    hours: 3230,
+    x: "Positive",
+    task: 13451,
     color: "red",
   },
   {
-    x: "2-3AM",
-    hours: 2230,
+    x: "Negative",
+    task: 11839,
     color: "red",
   },
   {
-    x: "3-4AM",
-    hours: 1630,
+    x: "comments",
+    task: 10463,
     color: "red",
   },
-  {
-    x: "4-5AM",
-    hours: 1230,
-    color: "red",
-  },
-  {
-    x: "5-6AM",
-    hours: 2230,
-    color: "red",
-  },
-  {
-    x: "6-7AM",
-    hours: 1630,
-    color: "red",
-  },
-  {
-    x: "7-8AM",
-    hours: 3230,
-    color: "red",
-  },
-  {
-    x: "8-9AM",
-    hours: 4230,
-    color: "red",
-  },
-  {
-    x: "9-10AM",
-    hours: 1630,
-    color: "red",
-  },
-  {
-    x: "10-11AM",
-    hours: 1980,
-    color: "red",
-  },
+
 ];
 
-export let dateOptions = [
-  {
-    country: "China",
-    cities: [
-      {
-        city: "Pekin",
-      },
-      {
-        city: "Shanxay",
-      },
-      {
-        city: "Lanzhou",
-      },
-      {
-        city: "Uxan",
-      },
-    ],
-  },
-  {
-    country: "Uzbekistan",
-    cities: [
-      {
-        city: "Tashkent",
-      },
-      {
-        city: "Fergana",
-      },
-      {
-        city: "Samarkand",
-      },
-      {
-        city: "Qashqadaryo",
-      },
-    ],
-  },
-  {
-    country: "England",
-    cities: [
-      {
-        city: "London",
-      },
-      {
-        city: "Tottenham",
-      },
-    ],
-  },
-  {
-    country: "USA",
-    cities: [
-      {
-        city: "Washington",
-      },
-      {
-        city: "New York",
-      },
-      {
-        city: "Los Angeles",
-      },
-      {
-        city: "Cansas",
-      },
-      {
-        city: "Atlanta",
-      },
-    ],
-  },
-  {
-    country: "Russian",
-    cities: [
-      {
-        city: "Moscow",
-      },
-    ],
-  },
-];
 
+// Total expanse in this card
 export let card = [
   {
     text: "Total orders",
     icon: "fa-solid fa-file",
     iconColor: "text-neutral-500",
-    money: "342",
+    money: "100",
     percent: "4.2%",
     percentColor: "text-lime-500",
     trend: "fa-solid fa-arrow-up",
@@ -456,7 +348,7 @@ export let card = [
     text: "Total sales",
     icon: "fa-solid fa-person-rays",
     iconColor: "text-neutral-500",
-    money: "$1,290",
+    money: "129",
     percent: "2.2%",
     percentColor: "text-lime-500",
     trend: "fa-solid fa-arrow-up",
@@ -465,7 +357,7 @@ export let card = [
     text: "Net sales",
     icon: "fa-solid fa-filter-circle-dollar",
     iconColor: "text-neutral-500",
-    money: "$1,940",
+    money: "  20",
     percent: "4.0%",
     percentColor: "text-lime-500",
     trend: "fa-solid fa-arrow-up",
@@ -481,163 +373,3 @@ export let card = [
   },
 ];
 
-export let multilocation = [
-  {
-    country: "China",
-    cities: [
-      {
-        city: "Pekin",
-        multilocation: [
-          "Kroger",
-          "Towne Oaks",
-          "Groveland",
-          "Groveland Chapels",
-        ],
-      },
-      {
-        city: "Shanxay",
-        multilocation: [
-          "Deer Creek",
-          "View details",
-          "Mayfair",
-          "Goodfield",
-          "Carlock",
-          "Congerville",
-        ],
-      },
-      {
-        city: "Lanzhou",
-        multilocation: ["Tianshui", "Baoji"],
-      },
-      {
-        city: "Uxan",
-        multilocation: ["Eureka", "Cruger", "Metamora", "Roanoke", "Panola"],
-      },
-    ],
-  },
-  {
-    country: "Uzbekistan",
-    cities: [
-      {
-        city: "Tashkent",
-        multilocation: [
-          "Sergeli",
-          "Marsim Gorkiy",
-          "Yunisobod",
-          "Mirzo Ulugbek",
-          "Chilonzor",
-        ],
-      },
-      {
-        city: "Fergana",
-        multilocation: ["Koson", "Qoqon", "Margilan"],
-      },
-      {
-        city: "Samarkand",
-        multilocation: ["Samarkand", "Oltinsoy"],
-      },
-      {
-        city: "Surxondaryo",
-        multilocation: ["Termiz", "Denov"],
-      },
-      {
-        city: "Qashqadaryo",
-        multilocation: [
-          "Qarshi",
-          "Chirakchi",
-          "Shaxrisabz",
-          "Kitob",
-          "Yakkabog",
-        ],
-      },
-    ],
-  },
-  {
-    country: "England",
-    cities: [
-      {
-        city: "London",
-        multilocation: ["London City", "Oxford", "Manchester"],
-      },
-      {
-        city: "Tottenham",
-        multilocation: ["Redstone", "Yellowrock", "Mayfair 12", "Goodfield"],
-      },
-    ],
-  },
-  {
-    country: "USA",
-    cities: [
-      {
-        city: "Washington",
-        multilocation: [
-          "Kroger",
-          "Towne Oaks",
-          "Groveland",
-          "Groveland Chapels",
-        ],
-      },
-      {
-        city: "New York",
-        multilocation: [
-          "Brockleen Bringe",
-          "Coma",
-          "Arezona",
-          "Mottemham",
-          "Carlson Street",
-          "Congerville",
-          "Phoenix",
-        ],
-      },
-      {
-        city: "Los Angeles",
-        multilocation: ["Silicon Valley", "Beach"],
-      },
-      {
-        city: "San Francisco",
-        multilocation: [
-          "San Jose",
-          "San Diego",
-          "Phoenix",
-          "Colarado",
-          "Panola",
-        ],
-      },
-      {
-        city: "Cansas",
-        multilocation: ["Wichita", "SpringField"],
-      },
-      {
-        city: "Atlanta",
-        multilocation: ["New Orlean", "Bioloxi", "Orlandp", "Tampa", "Panola"],
-      },
-    ],
-  },
-  {
-    country: "Russian",
-    cities: [
-      {
-        city: "Moscow",
-        multilocation: [
-          "Odintsovo",
-          "Lesnoy Gorodok",
-          "Borodki",
-          "Pykhtino",
-          "Lyubertsy",
-          "Khimki",
-          "Zelenograd",
-        ],
-      },
-    ],
-  },
-];
-export let time = [
-  "08:00",
-  "10:00",
-  "12:00",
-  "14:00",
-  "16:00",
-  "18:00",
-  "20:00",
-  "22:00",
-];

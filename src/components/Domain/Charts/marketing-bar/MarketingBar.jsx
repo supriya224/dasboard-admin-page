@@ -7,8 +7,7 @@ const MarketingBar = () => {
             <div className="h-max w-full p-6 relative bg-white rounded-xl">
                 <div className="flex justify-between items-center">
                     <div className="items-center gap-3 inline-flex">
-                        <i className='fa-solid fa-location-dot fa-xl text-zinc-500'></i>
-                        <div className="grow shrink basis-0 text-zinc-900 text-base font-semibold leading-normal">Sales by Location</div>
+                        <div className="grow shrink basis-0 text-zinc-900 text-base font-semibold leading-normal">Previous year car sals data</div>
                     </div>
                     <div className=" cursor-pointer text-right text-orange-600 text-sm font-semibold leading-tight">View All</div>
                 </div>
@@ -20,7 +19,7 @@ const MarketingBar = () => {
                         primaryXAxis={{
                             valueType: 'Category',
                             majorGridLines: { width: 0 },
-                            chartArea: { width: 20 }
+                            chartArea: { width: 10 }
                         }}
                         primaryYAxis={{
                             minimum: 0,

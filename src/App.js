@@ -1,18 +1,9 @@
-// import { useNavigate } from "react-router-dom";
-import HomePage from "./pages/home/HomePage";
-// import { useEffect } from "react";
 
+import HomePage from "./pages/home/HomePage";
 function App() {
-  // const navigate = useNavigate();
-  // // useEffect(() => {
-  // //   navigate("/admin-dashboard/main");
-  // // });
   return (
     <div className=" h-[100vh] w-full">
     <HomePage/>
-      {/* <Routes>
-        <Route path="/admin-dashboard/:category" element={<HomePage />} />
-      </Routes> */}
     </div>
   );
 }

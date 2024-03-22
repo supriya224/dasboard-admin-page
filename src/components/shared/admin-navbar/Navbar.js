@@ -1,9 +1,7 @@
 /* eslint-disable no-undef */
 import React, { useContext } from 'react';
+// context
 import { Context } from '../../../context/index';
-
-
-
 export const Navbar = () => {
   let { state, dispatch } = useContext(Context)
   let toogle = () => {
@@ -30,7 +28,7 @@ export const Navbar = () => {
                     <div className=" h-5 left-[6.58px] top-[2px] absolute">
                     </div>
                 </div>
-                <div className="text-zinc-900 text-base font-normal leading-normal">Dine-In</div>
+                <div className="text-zinc-900 text-base font-normal leading-normal">Share Market</div>
             </div>
         </div>
       

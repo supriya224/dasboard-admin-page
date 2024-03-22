@@ -1,10 +1,12 @@
 import { createContext, useReducer } from "react";
-
+// toggle navrbar using context api
 const initialValue = {
   toggle:true,
   toggleNavbar:true,
 };
+
 export const Context = createContext();
+// use reducre for manage state of toggle navbar
 const reducer = (state = initialValue, action) => {
   const { type, payload } = action;
   switch (type) {
@@ -16,7 +18,7 @@ const reducer = (state = initialValue, action) => {
       return { state };
   }
 };
-
+// provider state 
 const Provider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialValue);
   return (

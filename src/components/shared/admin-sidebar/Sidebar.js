@@ -1,7 +1,11 @@
 import { useContext, useState } from "react";
+// context api for state management
 import { Context } from "../../../context";
+// data from dates dummy
 import { Data } from "../../../dates/Dummy";
+// I have used link for routing
 import { Link } from "react-router-dom";
+
 export const Sidebar = () => {
   let [activeIcon, setActiveIcon] = useState('fa-solid fa-chart-pie')
     let [activeCat, setActiveCat] = useState('Sales')

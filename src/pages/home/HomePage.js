@@ -8,7 +8,8 @@ import  Marketing  from "../../components/core/admin-marketing/Marketing";
 import { Route, Routes, useParams } from "react-router-dom";
 import { Data } from "../../dates/Dummy";
 import { Context } from "../../context/index";
-// import MarketingBar from "../../components/Domain/Charts/marketing-bar/MarketingBar";
+import Prd from "../../components/Project/Prd";
+import Specification from "../../components/Project/Specification";
 
 function HomePage() {
   const { category } = useParams();
@@ -37,11 +38,12 @@ function HomePage() {
               : ` ${state.toggleNavbar ? "md:ml-[90px]" : "ml-0"}`
           } overflow-auto w-full h-full z-10`}
         >
-          {/* {category === "main" && <Main />}
-          {category === "marketing" && <Marketing />} */}
           <Routes>
             <Route path="/admin-dashboard/main" element={<Main />} />
             <Route path="/admin-dashboard/marketing" element={<Marketing />} />
+            <Route path="/admin-dashboard/prd" element={<Prd />} />
+            <Route path="/admin-dashboard/specification" element={<Specification />} />
+
           </Routes>
         </div>
       </div>
