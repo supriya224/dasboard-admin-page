@@ -8,7 +8,7 @@ const Bar = () => {
         <div className=' w-full'>
             <div className="flex justify-between items-center mb-4">
                 <div className="text-zinc-900 text-base font-medium leading-normal">Car manufacture show data </div>
-                <div className="text-right text-orange-600 text-sm font-semibold leading-tight cursor-pointer">View All</div>
+                <div className="text-right text-indigo-600 text-sm font-semibold leading-tight cursor-pointer">View All</div>
             </div>
             {/* I have used syncfusion/ej2-react-charts for showing charts like bar */}
             <ChartComponent
@@ -41,7 +41,7 @@ const Bar = () => {
                         xName="x"
                         yName="task"
                         type="Column"
-                        fill='#8FBFFF'
+                        fill='#3f54be'
                         columnSpacing={0.1}
                         columnWidth={0.5}
                         cornerRadius={{

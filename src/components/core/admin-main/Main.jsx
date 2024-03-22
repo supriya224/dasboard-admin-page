@@ -16,7 +16,7 @@ const Main = () => {
                             dateCards.map(({ text, task, color }) => {
                                 return (
                                     <div className={`grow shrink basis-0 h-[100px] p-3 bg-white rounded-sm shadow border-t-2 ${color} flex-col justify-start items-start gap-4 inline-flex`}>
-                                        <div className="self-stretch text-white text-xs py-1 px-3 text-center font-medium leading-[18px] rounded-full bg-orange-300">{text}</div>
+                                        <div className="self-stretch text-white text-xs py-1 px-3 text-center font-medium leading-[18px] rounded-full bg-indigo-300">{text}</div>
                                         <div className="self-stretch justify-start items-baseline gap-1 inline-flex">
                                             <div className="text-zinc-900 text-xl font-semibold leading-[30px]">{task} <span className='text-sm font-thin text-blue-800'>Items</span></div>
                                         </div>

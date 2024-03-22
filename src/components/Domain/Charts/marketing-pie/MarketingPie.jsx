@@ -9,7 +9,7 @@ const Pie = () => {
                 <div className="items-center gap-3 inline-flex">
                     <div className="grow shrink basis-0 text-zinc-900 text-base font-semibold leading-normal">Selling items in pie chart</div>
                 </div>
-                <div className=" cursor-pointer text-right text-orange-600 text-sm font-semibold leading-tight">View All</div>
+                <div className=" cursor-pointer text-right text-indigo-600 text-sm font-semibold leading-tight">View All</div>
             </div>
             <div className=" mt-8">
                 <AccumulationChartComponent

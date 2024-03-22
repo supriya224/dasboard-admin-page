@@ -9,7 +9,7 @@ const MarketingBar = () => {
                     <div className="items-center gap-3 inline-flex">
                         <div className="grow shrink basis-0 text-zinc-900 text-base font-semibold leading-normal">Previous year car sals data</div>
                     </div>
-                    <div className=" cursor-pointer text-right text-orange-600 text-sm font-semibold leading-tight">View All</div>
+                    <div className=" cursor-pointer text-right text-indigo-600 text-sm font-semibold leading-tight">View All</div>
                 </div>
                 <div className=" mt-8 w-full">
                     <ChartComponent
@@ -54,7 +54,7 @@ const MarketingBar = () => {
 
                     </ChartComponent>
                 </div>
-                <div className="text-red-600 text-xs font-normal leading-[18px] text-center mt-4"><i class="fa-solid fa-chart-line pr-2"></i> 2,5% decrease average each location</div>
+                <div className="text-indigo-600 text-xs font-normal leading-[18px] text-center mt-4"><i class="fa-solid fa-chart-line pr-2"></i> 2,5% decrease average each location</div>
             </div>
         </div>
     )

@@ -30,7 +30,7 @@ export const Sidebar = () => {
             {
                 Data.map((icon, index,) => {
                     return (
-                        <div key={index} onClick={(r) => { ClickedIcon(icon) }} className={`p-3.5 cursor-pointer ${activeIcon === icon.icon ? ' text-white bg-gradient-to-bl from-amber-500 to-pink-500' : 'text-neutral-400'}  rounded-lg flex-col hover:text-white duration-300 justify-start items-center gap-2 flex`}>
+                        <div key={index} onClick={(r) => { ClickedIcon(icon) }} className={`p-3.5 cursor-pointer ${activeIcon === icon.icon ? ' text-white bg-gradient-to-bl from-indigo-500 to-pink-500' : 'text-neutral-400'}  rounded-lg flex-col hover:text-white duration-300 justify-start items-center gap-2 flex`}>
                             <i className={`${icon.icon} text-xl w-6 h-6 text-center `}></i>
                         </div>
                     )
@@ -43,9 +43,9 @@ export const Sidebar = () => {
                     return (
                         <Link to={`/admin-dashboard/${url}`} onClick={() => {
                             setActiveCat(text)
-                        }} key={index} className={`self-stretch duration-300 cursor-pointer px-[18px] ${activeCat === text ? ' bg-orange-50 bg-opacity-80 border-r-2 border-orange-600 ' : 'text-zinc-500 hover:bg-neutral-200'} py-3.5 justify-start items-center gap-3 inline-flex`}>
-                            <div className={`w-6 relative ${activeCat === text ? 'text-orange-600' : 'text-zinc-500'} text-xl`} ><i className={`${icon}`}></i></div>
-                            <div className={`grow shrink basis-0 ${activeCat === text ? 'text-orange-600 font-semibold' : 'text-zinc-500  font-normal'} text-sm leading-tight`}>{text}</div>
+                        }} key={index} className={`self-stretch duration-300 cursor-pointer px-[18px] ${activeCat === text ? ' bg-indigo-50 bg-opacity-80 border-r-2 border-indigo-600 ' : 'text-zinc-500 hover:bg-indigo-200'} py-3.5 justify-start items-center gap-3 inline-flex`}>
+                            <div className={`w-6 relative ${activeCat === text ? 'text-indigo-600' : 'text-zinc-500'} text-xl`} ><i className={`${icon}`}></i></div>
+                            <div className={`grow shrink basis-0 ${activeCat === text ? 'text-indigo-600 font-semibold' : 'text-zinc-500  font-normal'} text-sm leading-tight`}>{text}</div>
                         </Link>
                     )
                 })

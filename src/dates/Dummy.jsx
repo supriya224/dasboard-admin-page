@@ -17,7 +17,7 @@ export let Data = [
     ],
   },
   {
-    icon: "fa-solid fa-mug-saucer",
+    icon: "fa-solid fa-diagram-project",
     inside: [
       {
         icon: "fa-solid fa-universal-access",
@@ -32,7 +32,7 @@ export let Data = [
     ],
   },
   {
-    icon: "fa-solid fa-location-dot",
+    icon: "fa-solid fa-server",
     inside: [
       {
         icon: "fa-solid fa-universal-access",
@@ -47,7 +47,7 @@ export let Data = [
     ],
   },
   {
-    icon: "fa-solid fa-calendar-days",
+    icon: "fa-solid fa-list",
     inside: [
       {
         icon: "fa-solid fa-universal-access",
@@ -62,7 +62,7 @@ export let Data = [
     ],
   },
   {
-    icon: "fa-solid fa-box",
+    icon: "fa-solid fa-octopus-deploy",
     inside: [
       {
         icon: "fa-solid fa-universal-access",
@@ -338,7 +338,7 @@ export let card = [
   {
     text: "Total orders",
     icon: "fa-solid fa-file",
-    iconColor: "text-neutral-500",
+    iconColor: "text-indigo-500",
     money: "100",
     percent: "4.2%",
     percentColor: "text-lime-500",
@@ -347,7 +347,7 @@ export let card = [
   {
     text: "Total sales",
     icon: "fa-solid fa-person-rays",
-    iconColor: "text-neutral-500",
+    iconColor: "text-indigo-500",
     money: "129",
     percent: "2.2%",
     percentColor: "text-lime-500",
@@ -356,7 +356,7 @@ export let card = [
   {
     text: "Net sales",
     icon: "fa-solid fa-filter-circle-dollar",
-    iconColor: "text-neutral-500",
+    iconColor: "text-indigo-500",
     money: "  20",
     percent: "4.0%",
     percentColor: "text-lime-500",
@@ -365,7 +365,7 @@ export let card = [
   {
     text: "Cancelled orders",
     icon: "fa-solid fa-circle-xmark",
-    iconColor: "text-orange-600",
+    iconColor: "text-indigo-500",
     money: "12",
     percent: "1.5%",
     percentColor: "text-orange-600",
