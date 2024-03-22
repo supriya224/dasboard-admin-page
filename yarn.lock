@@ -2021,7 +2021,20 @@
     "@syncfusion/ej2-base" "~19.4.52"
     "@syncfusion/ej2-data" "~19.4.52"
 
-"@syncfusion/ej2-dropdowns@19.4.56", "@syncfusion/ej2-dropdowns@~19.4.52", "@syncfusion/ej2-dropdowns@~19.4.55", "@syncfusion/ej2-dropdowns@~19.4.56":
+"@syncfusion/ej2-dropdowns@25.1.35":
+  version "25.1.35"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-25.1.35.tgz#97fbbdceea4154061bc65808bcb9f4fdc07c6f61"
+  integrity sha512-0P6t07FSGNzRlpm/Nsd63V+QKr58kgqjBdypDpsYmS5BKmimoLeWPboWdpi8lSWLZh4Mh4u+NM4WXXMyZjsg/A==
+  dependencies:
+    "@syncfusion/ej2-base" "~25.1.35"
+    "@syncfusion/ej2-data" "~25.1.35"
+    "@syncfusion/ej2-inputs" "~25.1.35"
+    "@syncfusion/ej2-lists" "~25.1.35"
+    "@syncfusion/ej2-navigations" "~25.1.35"
+    "@syncfusion/ej2-notifications" "~25.1.35"
+    "@syncfusion/ej2-popups" "~25.1.35"
+
+"@syncfusion/ej2-dropdowns@~19.4.52", "@syncfusion/ej2-dropdowns@~19.4.55", "@syncfusion/ej2-dropdowns@~19.4.56":
   version "19.4.56"
   resolved "https://registry.yarnpkg.com/@syncfusion/ej2-dropdowns/-/ej2-dropdowns-19.4.56.tgz#1e8535f222b2a63ca56ec0c531566ffa03ea7522"
   integrity sha512-wVXE2MGYxlqcBKltjmvSK9w3bRn+3oqXwYlejLcrzR+IgBgSY6OMH3UN59L9F2eei+Dfddw3yLRzdLqsGa6tEw==
@@ -2268,6 +2281,15 @@
     "@syncfusion/ej2-buttons" "~19.4.52"
     "@syncfusion/ej2-popups" "~19.4.52"
 
+"@syncfusion/ej2-notifications@~25.1.35":
+  version "25.1.35"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-notifications/-/ej2-notifications-25.1.35.tgz#f6dd01cb54fa596b120b87292fce50818c5cfd07"
+  integrity sha512-ioSI36uCSA9hxB8fiUAvI0u7c2eIs1sw3kC0cfL2HbGHHOmhWjm4yoTIl13sKoXU6Sv2A2V3xsFAf97cBTjFvA==
+  dependencies:
+    "@syncfusion/ej2-base" "~25.1.35"
+    "@syncfusion/ej2-buttons" "~25.1.35"
+    "@syncfusion/ej2-popups" "~25.1.35"
+
 "@syncfusion/ej2-office-chart@~19.4.52":
   version "19.4.52"
   resolved "https://registry.yarnpkg.com/@syncfusion/ej2-office-chart/-/ej2-office-chart-19.4.52.tgz#96f7de9ec1ac452d14ba0814761fa1f1916c6410"
@@ -2407,14 +2429,14 @@
     "@syncfusion/ej2-charts" "25.1.35"
     "@syncfusion/ej2-react-base" "~25.1.35"
 
-"@syncfusion/ej2-react-dropdowns@^19.4.52":
-  version "19.4.56"
-  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-react-dropdowns/-/ej2-react-dropdowns-19.4.56.tgz#eb3a60fac7247078e7fef022a72b5f2b120d2bea"
-  integrity sha512-4LyAYtzyvbcTciI/uiGQ07pXlSOY8bLevkNWqbT8vL0JHwLl64OL8BhbowS02yoqlPgPydM4+T5q41ZX9oIhMw==
+"@syncfusion/ej2-react-dropdowns@^25.1.35":
+  version "25.1.35"
+  resolved "https://registry.yarnpkg.com/@syncfusion/ej2-react-dropdowns/-/ej2-react-dropdowns-25.1.35.tgz#3d1b0a318f55cddb8fb6b0cc2a8dffec1a3e8c56"
+  integrity sha512-nGgEZkBJk7UX0Tt2s6iL2hmKa3kNO8wwCSK0Q66af907UDcO0dYNuB+PcV4v+UuWnghIFL5m68OMaOaNdlCkQQ==
   dependencies:
-    "@syncfusion/ej2-base" "~19.4.52"
-    "@syncfusion/ej2-dropdowns" "19.4.56"
-    "@syncfusion/ej2-react-base" "~19.4.56"
+    "@syncfusion/ej2-base" "~25.1.35"
+    "@syncfusion/ej2-dropdowns" "25.1.35"
+    "@syncfusion/ej2-react-base" "~25.1.35"
 
 "@syncfusion/ej2-react-grids@^19.4.50":
   version "19.4.56"

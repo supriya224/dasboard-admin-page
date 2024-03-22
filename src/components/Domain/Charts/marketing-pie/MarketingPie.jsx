@@ -1,6 +1,6 @@
 import React from 'react'
 import { AccumulationChartComponent, AccumulationSeriesCollectionDirective, AccumulationSeriesDirective, AccumulationLegend, PieSeries, AccumulationDataLabel, Inject, AccumulationTooltip } from '@syncfusion/ej2-react-charts';
-import { dataPie } from '../../../dates/jummy';
+import { dataPie } from '../../../../dates/Dummy';
 
 const Pie = () => {
     return (

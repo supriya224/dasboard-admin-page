@@ -4,11 +4,11 @@ import React, { useContext, useEffect, useState } from "react";
 import { Navbar } from "../../components/shared/admin-navbar/Navbar";
 import { Sidebar } from "../../components/shared/admin-sidebar/Sidebar";
 import Main from "../../components/core/admin-main/Main";
-import { Marketing } from "../../components/core/admin-marketing/Marketing";
+import  Marketing  from "../../components/core/admin-marketing/Marketing";
 import { Route, Routes, useParams } from "react-router-dom";
 import { Data } from "../../dates/Dummy";
 import { Context } from "../../context/index";
-import MarketingBar from "../../components/Domain/Charts/marketing-bar/MarketingBar";
+// import MarketingBar from "../../components/Domain/Charts/marketing-bar/MarketingBar";
 
 function HomePage() {
   const { category } = useParams();

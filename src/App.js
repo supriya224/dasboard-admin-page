@@ -1,12 +1,12 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 function App() {
-  const navigate = useNavigate();
-  useEffect(() => {
-    navigate("/admin-dashboard/main");
-  });
+  // const navigate = useNavigate();
+  // // useEffect(() => {
+  // //   navigate("/admin-dashboard/main");
+  // // });
   return (
     <div className=" h-[100vh] w-full">
     <HomePage/>
