@@ -8,7 +8,7 @@ You may also see any lint errors in the console.
 
 # Sales Admin Dashboard for Car Manufacturer
 
-##Deploy; Open [[http://localhost:3000](http://localhost:3000](https://friendly-snickerdoodle-2237cb.netlify.app)) to view it in your browser.
+##Deploy; Open https://friendly-snickerdoodle-2237cb.netlify.app to view it in your browser.
 
 ## Description
 Our project aimed to create an intuitive admin dashboard tailored for a car manufacturer, providing comprehensive insights into sales performance and employee data. Leveraging React.js, Tailwind CSS, and the Context API, we developed a dynamic and responsive web application. Key features include visual representations of sales data through pie charts, line charts, and graphs using Syncfusion's EJ2 React Charts library.
