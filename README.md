@@ -8,6 +8,8 @@ You may also see any lint errors in the console.
 
 # Sales Admin Dashboard for Car Manufacturer
 
+##Deploy; Open [[http://localhost:3000](http://localhost:3000](https://friendly-snickerdoodle-2237cb.netlify.app)) to view it in your browser.
+
 ## Description
 Our project aimed to create an intuitive admin dashboard tailored for a car manufacturer, providing comprehensive insights into sales performance and employee data. Leveraging React.js, Tailwind CSS, and the Context API, we developed a dynamic and responsive web application. Key features include visual representations of sales data through pie charts, line charts, and graphs using Syncfusion's EJ2 React Charts library.
 
@@ -35,6 +37,15 @@ Our project aimed to create an intuitive admin dashboard tailored for a car manu
 - **Real-Time Updates:** Implement real-time data synchronization to ensure that stakeholders have access to the most up-to-date information at all times.
 
 In conclusion, our Sales Admin Dashboard serves as a powerful tool for the car manufacturer, empowering stakeholders with actionable insights and facilitating data-driven decision-making in a dynamic and competitive market environment.
+
+##screenshot
+<img width="1440" alt="Screenshot 2024-03-22 at 4 02 02 PM" src="https://github.com/supriya224/dasboard-admin-page/assets/52038704/bd9d2135-7b36-4870-8a68-23f0155ab72d">
+<img width="1440" alt="Screenshot 2024-03-22 at 4 02 20 PM" src="https://github.com/supriya224/dasboard-admin-page/assets/52038704/39856965-7f14-4cc7-9e7a-755996088d07">
+<img width="1440" alt="Screenshot 2024-03-22 at 4 02 27 PM" src="https://github.com/supriya224/dasboard-admin-page/assets/52038704/c91134a6-cdc6-4e44-887c-b9f135a7e263">
+<img width="1440" alt="Screenshot 2024-03-22 at 4 02 40 PM" src="https://github.com/supriya224/dasboard-admin-page/assets/52038704/444b4d5d-ae0c-4dd1-a01b-7687a5f8d2d3">
+<img width="1440" alt="Screenshot 2024-03-22 at 4 02 49 PM" src="https://github.com/supriya224/dasboard-admin-page/assets/52038704/2e07c6ed-9bc3-48b4-bdb2-7e2b972b8c6c">
+<img width="1440" alt="Screenshot 2024-03-22 at 4 18 26 PM" src="https://github.com/supriya224/dasboard-admin-page/assets/52038704/810935e2-934f-44d1-b0dc-d3ce0ba9ccec">
+<img width="1440" alt="Screenshot 2024-03-22 at 4 18 33 PM" src="https://github.com/supriya224/dasboard-admin-page/assets/52038704/a703d20d-71fc-411c-b084-d99d42d267ed">
 
 
 ### Advanced Configuration
